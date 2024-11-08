@@ -9,10 +9,12 @@ import History from './components/History/History'
 import Footer from './components/Footer/Footer'
 
 createRoot(document.getElementById('root')).render(
+  <div className='main'>
   <StrictMode>
     <Header />
     <Introduction/>
     <History />
     <Footer />
-  </StrictMode>,
+  </StrictMode>
+  </div>
 )

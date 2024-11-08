@@ -1,14 +1,13 @@
 .header {
-    max-width: 1200px;
     width: 80%;
     height: 6%;
+    margin: auto 0;
     top: 0;
     position: fixed;
     background-color: black;
-    display: flex;
     z-index: 2;
-    align-items: flex-end;
-    justify-content: flex-end;
+    justify-items: right;
+    max-width: 1200px;
   }
   
   .logo {
@@ -29,7 +28,7 @@
   .access img {
     width: auto;
     height: 100%;
-    margin-right: 0.4rem;
+    margin-right: 0.4em;
   }
   
   .access {
@@ -37,5 +36,5 @@
     height: 60%;
     margin: 0;
     display: flex;
-    padding-bottom: 0.2rem;
+    padding-top: 1em;
   }
