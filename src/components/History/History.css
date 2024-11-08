@@ -1,0 +1,56 @@
+.frontfont {
+    font-family: "Noto Sans JP", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+  }
+  
+  .backfont {
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: gray;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    position: absolute;
+    opacity: 50%;
+    z-index: -1;
+  }
+  
+  table {
+    width: 100%;
+    height: 100%;
+  }
+  
+  tr {
+    padding-top: 2rem;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid #414141;
+  }
+  
+  th {
+    font-family: "Noto Sans JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+  }
+  
+  .time {
+    width: 20%;
+    height: 10%;
+    background-color: #7e7e7e;
+    color: white;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
